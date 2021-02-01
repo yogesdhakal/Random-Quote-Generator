@@ -55,7 +55,7 @@ let quotes = [
   
   function getRandomQuote(){
 
-    const randomQuote = Math.floor(Math.random() * quotes.length) +1 ;
+    const randomQuote = Math.floor(Math.random() * quotes.length);
     return quotes[randomQuote];
   }
 
